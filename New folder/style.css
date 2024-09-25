@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header section start */
+nav{
+    background-color: #6e6d7473;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    text-align: center;
+    border-bottom: 2px solid #959397;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 2px 1px greenyellow;
+ }
+
+nav ul{
+display: flex;
+
+}
+
+nav ul li{
+list-style-type: none;
+margin: 11px 12px;
+}
+
+nav ul li a{
+ text-decoration: none;
+ color: white;
+ font-weight: bold;
+ font-size: 18px;
+ padding: 11px 20px;
+ transition: 0.5s;
+}
+nav ul li a:hover{
+background-color: rgba(15, 16, 17, 0.356);
+color: rgb(237, 255, 71);
+border-radius: 3px;
+}
+
+/* hero area section start  */
+header{
+    background-image: url("imge/pizza.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 250px 0;
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.search-box i{
+  background-color: rgb(173, 240, 167);
+  font-size: 18px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: -30px;
+}
+.search-box input{
+   width: 350px;
+   height: 30px;
+   font-size: 15px;
+   padding: 5px 10px;
+   border-radius: 5px;
+}
+/* hero area section end  */
+/* header section end */
+
+/* main section start */
+#frist-section{
+background-color: rgba(233, 227, 219, 0.781);
+padding-top: 20px;
+}
+
+#main-container{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.container-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-text{
+    font-size: 15px;
+    color: rgb(56, 170, 84);
+}
+
+.item-page{
+    font-size: 18px;
+    color: rgb(56, 170, 84);
+}
+.item-page span{
+   background-color: rgb(92, 88, 83);
+   color: black;
+   padding: 5px;
+   border-radius: 2px;
+   margin: 0 5px;
+   cursor: pointer;
+}
+
+
+/* main section end */
+
+/* footer section start */
+/* footer section end */
